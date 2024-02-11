@@ -37,19 +37,19 @@ async function weather1(city) {
 
   if(data.weather[0].main === 'Clear')
   {
-    weatherimg.src = '../Images/sunny.png';
+    weatherimg.src = 'Images/sunny.png';
   }
   else if(data.weather[0].main === 'Rain')
   {
-    weatherimg.src = '../Images/rain.png'
+    weatherimg.src = 'Images/rain.png'
   }
   else if(data.weather[0].main === 'Clouds')
   {
-    weatherimg.src = '../Images/cloud.png'
+    weatherimg.src = 'Images/cloud.png'
   }
   else if(data.weather[0].main === 'Few clouds')
   {
-    weatherimg.src = '../Images/sun_cloud.png'
+    weatherimg.src = 'Images/sun_cloud.png'
   }
 
 }
